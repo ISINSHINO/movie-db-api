@@ -35,7 +35,7 @@ const SingleMovie = () => {
         return (
             <div className='page-error'>
                 <h1>{error.msg}</h1>
-                <Link to='/' className='btn'>
+                <Link to='/movie-db-api' className='btn'>
                     back to movies
                 </Link>
             </div>
