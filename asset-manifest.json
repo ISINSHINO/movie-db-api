@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/movie-db-api/static/css/main.76cc0ec1.chunk.css",
+    "main.js": "/movie-db-api/static/js/main.e6c3ff76.chunk.js",
+    "main.js.map": "/movie-db-api/static/js/main.e6c3ff76.chunk.js.map",
+    "runtime-main.js": "/movie-db-api/static/js/runtime-main.de274c52.js",
+    "runtime-main.js.map": "/movie-db-api/static/js/runtime-main.de274c52.js.map",
+    "static/js/2.1618b2c8.chunk.js": "/movie-db-api/static/js/2.1618b2c8.chunk.js",
+    "static/js/2.1618b2c8.chunk.js.map": "/movie-db-api/static/js/2.1618b2c8.chunk.js.map",
+    "index.html": "/movie-db-api/index.html",
+    "precache-manifest.62d28b750d6a6c1dfa87d19644f9feab.js": "/movie-db-api/precache-manifest.62d28b750d6a6c1dfa87d19644f9feab.js",
+    "service-worker.js": "/movie-db-api/service-worker.js",
+    "static/css/main.76cc0ec1.chunk.css.map": "/movie-db-api/static/css/main.76cc0ec1.chunk.css.map",
+    "static/js/2.1618b2c8.chunk.js.LICENSE.txt": "/movie-db-api/static/js/2.1618b2c8.chunk.js.LICENSE.txt",
+    "static/media/heart-fill.png": "/movie-db-api/static/media/heart-fill.9f611119.png",
+    "static/media/johnny-depp-tears.gif": "/movie-db-api/static/media/johnny-depp-tears.64830ae9.gif",
+    "static/media/like.png": "/movie-db-api/static/media/like.01ef2131.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de274c52.js",
+    "static/js/2.1618b2c8.chunk.js",
+    "static/css/main.76cc0ec1.chunk.css",
+    "static/js/main.e6c3ff76.chunk.js"
+  ]
+}
