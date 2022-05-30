@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/movie-db-api/static/css/main.76cc0ec1.chunk.css",
-    "main.js": "/movie-db-api/static/js/main.e6c3ff76.chunk.js",
-    "main.js.map": "/movie-db-api/static/js/main.e6c3ff76.chunk.js.map",
+    "main.js": "/movie-db-api/static/js/main.8ee19756.chunk.js",
+    "main.js.map": "/movie-db-api/static/js/main.8ee19756.chunk.js.map",
     "runtime-main.js": "/movie-db-api/static/js/runtime-main.de274c52.js",
     "runtime-main.js.map": "/movie-db-api/static/js/runtime-main.de274c52.js.map",
     "static/js/2.1618b2c8.chunk.js": "/movie-db-api/static/js/2.1618b2c8.chunk.js",
     "static/js/2.1618b2c8.chunk.js.map": "/movie-db-api/static/js/2.1618b2c8.chunk.js.map",
     "index.html": "/movie-db-api/index.html",
-    "precache-manifest.62d28b750d6a6c1dfa87d19644f9feab.js": "/movie-db-api/precache-manifest.62d28b750d6a6c1dfa87d19644f9feab.js",
+    "precache-manifest.f977ea47d43a6070d3a31db048122f53.js": "/movie-db-api/precache-manifest.f977ea47d43a6070d3a31db048122f53.js",
     "service-worker.js": "/movie-db-api/service-worker.js",
     "static/css/main.76cc0ec1.chunk.css.map": "/movie-db-api/static/css/main.76cc0ec1.chunk.css.map",
     "static/js/2.1618b2c8.chunk.js.LICENSE.txt": "/movie-db-api/static/js/2.1618b2c8.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.de274c52.js",
     "static/js/2.1618b2c8.chunk.js",
     "static/css/main.76cc0ec1.chunk.css",
-    "static/js/main.e6c3ff76.chunk.js"
+    "static/js/main.8ee19756.chunk.js"
   ]
 }
