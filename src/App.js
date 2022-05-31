@@ -12,7 +12,7 @@ function App() {
     <div>
         <NavBar/>
             <Switch>
-              <Route exact path="/movie-db-api">
+              <Route exact path="/">
                   <Home/>
               </Route>
               <Route path="/movie/:id">

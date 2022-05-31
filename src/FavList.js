@@ -70,7 +70,7 @@ const FavList = () => {
                             )}
                         )}
                     <div className="buttons-section">
-                    <Link className="btn" to="/movie-db-api">add more movies</Link>
+                    <Link className="btn" to="/">add more movies</Link>
                     <button onClick={clearList}
                             style={{marginLeft: 10, backgroundColor: "red"}}
                             className="btn">clear all</button>
@@ -80,7 +80,7 @@ const FavList = () => {
                 <div className="no-favorite-section">
                     <h2>Please, add some movies and come back!</h2>
                     <img src={sadJohny} alt={url}/>
-                    <Link className="btn" to="/movie-db-api">go back</Link>
+                    <Link className="btn" to="/">go back</Link>
                 </div>
             }
 
