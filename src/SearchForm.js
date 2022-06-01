@@ -1,6 +1,6 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import { useGlobalContext } from './context'
-import {Link} from "react-router-dom";
+import debounce from 'lodash.debounce'
 const SearchForm = () => {
 
     const {searchWord ,setSearchWord, error, setType, setYear, favoriteList} = useGlobalContext();
@@ -11,19 +11,31 @@ const SearchForm = () => {
         setType(e.target.value);
     }
 
+    // const handleWord = (e) => {
+    //     setSearchWord(e?.target?.value);
+    // }
+
     const handleYear = (e) => {
         setYear(e.target.value);
     }
+
+    const searchValue = useRef('');
+    function searchFilm() {
+        setSearchWord(searchValue?.current?.value)
+    }
+
+    const debounceOnChange = debounce(searchFilm, 500);
 
     return (
             <form className="search-form">
                 <div>
                   <h2>Search Movies</h2>
                   <input
-                      value={searchWord}
+                      placeholder="batman"
+                      ref={searchValue}
                       className="form-input"
                       type="text"
-                      onChange={(e) => setSearchWord(e.target.value)}/>
+                      onChange={debounceOnChange}/>
                   {error.show && <div className='error'>{error.msg}</div>}
                     <div className="radio-type">
                         <div>
